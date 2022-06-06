@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Survery Form</title>
+</head>
+
+<body>
+
+    <body style="background-color: rgb(230, 163, 163);">
+        <center>
+            <h1>
+                <u>
+                    Netflix Survery Form
+                </u>
+            </h1>
+        </center>
+
+        <form action="" method="get">
+            <!-- form fields inside -->
+
+            <br>
+            <br>
+            <br>
+
+            <label for="Name">Name:</label>
+            <input type="text" name="name_server" id="Name" placeholder="Enter your name...">
+
+            <br>
+            <br>
+            <br>
+
+            <label for="Email">Email:</label>
+            <input type="text" email="email_server" id="Email" placeholder="Enter your email adress...">
+
+            <br>
+            <br>
+            <br>
+
+            <label for="Email password">Email password:</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password email...">
+
+            <br>
+            <br>
+            <br>
+
+            <label for="Enter your favorite movie type:">Enter your favorite movie type:</label>
+            <select name="movie type" id="movie type">
+                <option value="">--Choose--</option>
+                <option value="romance">romance</option>
+                <option value="action">action</option>
+                <option value="anime">anime</option>
+                <option value="comedy">comedy</option>
+                <option value="SF">SF</option>
+                <option value="drama">drama</option>
+                <option value="horror">horror</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <p>Did you watch these movies/serials?</p>
+            <div>
+                <input type="checkbox" id="Squid Game" name="movie/serials" value="Squid Game_selected">
+                <label for="Squid Game">Squid Game</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Stranger Things" name="movie/serials" value="Stranger Things_selected">
+                <label for="Stranger Things">Stranger Things</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Money Heist" name="movie/serials" value="Money Heist_selected">
+                <label for="Money Heist">Money Heist</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Elite" name="movie/serials" value="Elite_selected">
+                <label for="Elite">Elite</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Sherlock" name="movie/serials" value="Sherlock_selected">
+                <label for="Sherlock">Sherlock</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Riverdale" name="movie/serials" value="Riverdale_selected">
+                <label for="Riverdale">Riverdale</label>
+            </div>
+
+
+            <div>
+                <input type="checkbox" id="Arcane" name="movie/serials" value="Arcane_selected">
+                <label for="Arcane">Arcane</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="no one" name="movie/serials" value="no one_selected">
+                <label for="no one">no one</label>
+            </div>
+
+            <p>Which device do you like to watch the most?</p>
+            <input type="radio" id="Phone" name="device" value="Phone">
+            <label for="Phone">Phone</label>
+            <br>
+
+            <input type="radio" id="Laptop" name="device" value="Laptop">
+            <label for="Laptop">Laptop</label>
+            <br>
+
+            <input type="radio" id="TV" name="device" value="TV">
+            <label for="TV">TV</label>
+            <br>
+
+            <input type="radio" id="Tablet" name="device" value="Tablet">
+            <label for="Tablet">Tablet</label>
+
+            <br>
+            <br>
+
+            <label for="fileUpload">Select a photo with your favorite movie:</label>
+            <input type="file" id="fileUpload" name="fileUpload">
+
+            <br>
+            <br>
+
+            <label for="Any ideas for a new movie?">Any ideas for a new movie?</label>
+            <textarea name="review" id="review" rows="5" cols="35" placeholder="Write here..."></textarea>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="submit" name="saveButton">Submit</button>
+        </form>
+    </body>
+</html>
